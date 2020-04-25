@@ -1,0 +1,73 @@
+body{
+	font-family: sans-serif;
+	background-image: url('covidjpg.jpg');
+	
+
+
+}
+ 
+h1{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 300;
+}
+.background{
+	filter: alpha(opacity=90);
+	opacity: .9;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+ 
+.tulisan_login{
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+	font-weight: 200;
+}
+ 
+.kotak_login{
+	width: 350px;
+	background: #ffecc7;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+	border: none;
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	background: #ececec; 
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	background: #46de4b;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+.tombol_batal{
+	background: #d8345f;
+	color: white;
+	font-size: 8pt;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	padding: 8px 16px;
+}
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
